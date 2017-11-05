@@ -76,6 +76,8 @@ Partial Class HomePageForm
         Me.BackgroundWorker1 = New System.ComponentModel.BackgroundWorker()
         Me.BackgroundWorker2 = New System.ComponentModel.BackgroundWorker()
         Me.BackgroundWorker3 = New System.ComponentModel.BackgroundWorker()
+        Me.Label20 = New System.Windows.Forms.Label()
+        Me.Label19 = New System.Windows.Forms.Label()
         Me.MenuStrip1.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -104,7 +106,7 @@ Partial Class HomePageForm
         '
         Me.MenToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.GownsToolStripMenuItem, Me.SuitsToolStripMenuItem, Me.BlousesToolStripMenuItem, Me.SkirtsToolStripMenuItem, Me.MoreToolStripMenuItem})
         Me.MenToolStripMenuItem.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.MenToolStripMenuItem.ForeColor = System.Drawing.Color.White
+        Me.MenToolStripMenuItem.ForeColor = System.Drawing.Color.Teal
         Me.MenToolStripMenuItem.Name = "MenToolStripMenuItem"
         Me.MenToolStripMenuItem.Size = New System.Drawing.Size(96, 32)
         Me.MenToolStripMenuItem.Text = "Women"
@@ -143,7 +145,7 @@ Partial Class HomePageForm
         '
         Me.WomenToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SuitsToolStripMenuItem1, Me.VestsToolStripMenuItem, Me.BlazersToolStripMenuItem, Me.MoreToolStripMenuItem1})
         Me.WomenToolStripMenuItem.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.WomenToolStripMenuItem.ForeColor = System.Drawing.Color.White
+        Me.WomenToolStripMenuItem.ForeColor = System.Drawing.Color.Teal
         Me.WomenToolStripMenuItem.Name = "WomenToolStripMenuItem"
         Me.WomenToolStripMenuItem.Size = New System.Drawing.Size(66, 32)
         Me.WomenToolStripMenuItem.Text = "Men"
@@ -230,9 +232,9 @@ Partial Class HomePageForm
         Me.Label14.ForeColor = System.Drawing.Color.Blue
         Me.Label14.Location = New System.Drawing.Point(333, 24)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(143, 20)
+        Me.Label14.Size = New System.Drawing.Size(139, 20)
         Me.Label14.TabIndex = 17
-        Me.Label14.Text = "Rent for $ 165 only"
+        Me.Label14.Text = "Rent for only $165"
         '
         'Label11
         '
@@ -343,7 +345,7 @@ Partial Class HomePageForm
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(134, 20)
         Me.Label15.TabIndex = 17
-        Me.Label15.Text = "Rent for $ 39 only"
+        Me.Label15.Text = "Rent for only $39 "
         '
         'Label12
         '
@@ -452,11 +454,11 @@ Partial Class HomePageForm
         '
         Me.Label16.AutoSize = True
         Me.Label16.ForeColor = System.Drawing.Color.Blue
-        Me.Label16.Location = New System.Drawing.Point(324, 26)
+        Me.Label16.Location = New System.Drawing.Point(333, 26)
         Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(134, 20)
+        Me.Label16.Size = New System.Drawing.Size(130, 20)
         Me.Label16.TabIndex = 17
-        Me.Label16.Text = "Rent for $ 29 only"
+        Me.Label16.Text = "Rent for only $29"
         '
         'Label13
         '
@@ -483,7 +485,7 @@ Partial Class HomePageForm
         '
         Me.Button3.BackColor = System.Drawing.Color.RoyalBlue
         Me.Button3.ForeColor = System.Drawing.Color.White
-        Me.Button3.Location = New System.Drawing.Point(401, 50)
+        Me.Button3.Location = New System.Drawing.Point(401, 60)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(75, 27)
         Me.Button3.TabIndex = 6
@@ -586,11 +588,37 @@ Partial Class HomePageForm
         Me.CartLabel.TabIndex = 4
         Me.CartLabel.Text = "Cart: 0"
         '
+        'Label20
+        '
+        Me.Label20.AutoSize = True
+        Me.Label20.BackColor = System.Drawing.Color.Teal
+        Me.Label20.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label20.ForeColor = System.Drawing.Color.White
+        Me.Label20.Location = New System.Drawing.Point(406, 7)
+        Me.Label20.Name = "Label20"
+        Me.Label20.Size = New System.Drawing.Size(54, 25)
+        Me.Label20.TabIndex = 22
+        Me.Label20.Text = "Men"
+        '
+        'Label19
+        '
+        Me.Label19.AutoSize = True
+        Me.Label19.BackColor = System.Drawing.Color.Teal
+        Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label19.ForeColor = System.Drawing.Color.White
+        Me.Label19.Location = New System.Drawing.Point(272, 6)
+        Me.Label19.Name = "Label19"
+        Me.Label19.Size = New System.Drawing.Size(86, 25)
+        Me.Label19.TabIndex = 21
+        Me.Label19.Text = "Women"
+        '
         'HomePageForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(816, 626)
+        Me.Controls.Add(Me.Label20)
+        Me.Controls.Add(Me.Label19)
         Me.Controls.Add(Me.PictureBox5)
         Me.Controls.Add(Me.LinkLabel1)
         Me.Controls.Add(Me.PictureBox4)
@@ -677,4 +705,6 @@ Partial Class HomePageForm
     Friend WithEvents Label16 As Label
     Friend WithEvents BackgroundWorker2 As System.ComponentModel.BackgroundWorker
     Friend WithEvents BackgroundWorker3 As System.ComponentModel.BackgroundWorker
+    Friend WithEvents Label20 As Label
+    Friend WithEvents Label19 As Label
 End Class

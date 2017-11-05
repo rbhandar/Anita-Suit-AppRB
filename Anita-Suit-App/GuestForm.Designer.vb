@@ -26,6 +26,7 @@ Partial Class GuestForm
         Me.PictureBox5 = New System.Windows.Forms.PictureBox()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.Button6 = New System.Windows.Forms.Button()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Button3 = New System.Windows.Forms.Button()
@@ -36,6 +37,7 @@ Partial Class GuestForm
         Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.Button5 = New System.Windows.Forms.Button()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Label7 = New System.Windows.Forms.Label()
@@ -60,15 +62,15 @@ Partial Class GuestForm
         Me.BlazersToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MoreToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.Button4 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.ItemLabel1 = New System.Windows.Forms.Label()
         Me.UpgradeLinkLabel = New System.Windows.Forms.LinkLabel()
         Me.HelloUserLabel = New System.Windows.Forms.Label()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.Button5 = New System.Windows.Forms.Button()
-        Me.Button6 = New System.Windows.Forms.Button()
+        Me.Label20 = New System.Windows.Forms.Label()
+        Me.Label19 = New System.Windows.Forms.Label()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox3.SuspendLayout()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -118,6 +120,17 @@ Partial Class GuestForm
         Me.GroupBox3.Size = New System.Drawing.Size(686, 150)
         Me.GroupBox3.TabIndex = 28
         Me.GroupBox3.TabStop = False
+        '
+        'Button6
+        '
+        Me.Button6.BackColor = System.Drawing.Color.RoyalBlue
+        Me.Button6.ForeColor = System.Drawing.Color.White
+        Me.Button6.Location = New System.Drawing.Point(401, 86)
+        Me.Button6.Name = "Button6"
+        Me.Button6.Size = New System.Drawing.Size(75, 27)
+        Me.Button6.TabIndex = 10
+        Me.Button6.Text = "View"
+        Me.Button6.UseVisualStyleBackColor = False
         '
         'Label13
         '
@@ -230,6 +243,17 @@ Partial Class GuestForm
         Me.GroupBox2.Size = New System.Drawing.Size(686, 158)
         Me.GroupBox2.TabIndex = 27
         Me.GroupBox2.TabStop = False
+        '
+        'Button5
+        '
+        Me.Button5.BackColor = System.Drawing.Color.RoyalBlue
+        Me.Button5.ForeColor = System.Drawing.Color.White
+        Me.Button5.Location = New System.Drawing.Point(401, 100)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(75, 27)
+        Me.Button5.TabIndex = 9
+        Me.Button5.Text = "View"
+        Me.Button5.UseVisualStyleBackColor = False
         '
         'Label9
         '
@@ -355,7 +379,7 @@ Partial Class GuestForm
         '
         Me.MenToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.GownsToolStripMenuItem, Me.SuitsToolStripMenuItem, Me.BlousesToolStripMenuItem, Me.SkirtsToolStripMenuItem, Me.MoreToolStripMenuItem})
         Me.MenToolStripMenuItem.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.MenToolStripMenuItem.ForeColor = System.Drawing.Color.White
+        Me.MenToolStripMenuItem.ForeColor = System.Drawing.Color.Teal
         Me.MenToolStripMenuItem.Name = "MenToolStripMenuItem"
         Me.MenToolStripMenuItem.Size = New System.Drawing.Size(96, 32)
         Me.MenToolStripMenuItem.Text = "Women"
@@ -394,7 +418,7 @@ Partial Class GuestForm
         '
         Me.WomenToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SuitsToolStripMenuItem1, Me.VestsToolStripMenuItem, Me.BlazersToolStripMenuItem, Me.MoreToolStripMenuItem1})
         Me.WomenToolStripMenuItem.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.WomenToolStripMenuItem.ForeColor = System.Drawing.Color.White
+        Me.WomenToolStripMenuItem.ForeColor = System.Drawing.Color.Teal
         Me.WomenToolStripMenuItem.Name = "WomenToolStripMenuItem"
         Me.WomenToolStripMenuItem.Size = New System.Drawing.Size(66, 32)
         Me.WomenToolStripMenuItem.Text = "Men"
@@ -402,25 +426,25 @@ Partial Class GuestForm
         'SuitsToolStripMenuItem1
         '
         Me.SuitsToolStripMenuItem1.Name = "SuitsToolStripMenuItem1"
-        Me.SuitsToolStripMenuItem1.Size = New System.Drawing.Size(164, 32)
+        Me.SuitsToolStripMenuItem1.Size = New System.Drawing.Size(210, 32)
         Me.SuitsToolStripMenuItem1.Text = "Suits"
         '
         'VestsToolStripMenuItem
         '
         Me.VestsToolStripMenuItem.Name = "VestsToolStripMenuItem"
-        Me.VestsToolStripMenuItem.Size = New System.Drawing.Size(164, 32)
+        Me.VestsToolStripMenuItem.Size = New System.Drawing.Size(210, 32)
         Me.VestsToolStripMenuItem.Text = "Vests"
         '
         'BlazersToolStripMenuItem
         '
         Me.BlazersToolStripMenuItem.Name = "BlazersToolStripMenuItem"
-        Me.BlazersToolStripMenuItem.Size = New System.Drawing.Size(164, 32)
+        Me.BlazersToolStripMenuItem.Size = New System.Drawing.Size(210, 32)
         Me.BlazersToolStripMenuItem.Text = "Blazers"
         '
         'MoreToolStripMenuItem1
         '
         Me.MoreToolStripMenuItem1.Name = "MoreToolStripMenuItem1"
-        Me.MoreToolStripMenuItem1.Size = New System.Drawing.Size(164, 32)
+        Me.MoreToolStripMenuItem1.Size = New System.Drawing.Size(210, 32)
         Me.MoreToolStripMenuItem1.Text = "More"
         '
         'GroupBox1
@@ -438,6 +462,17 @@ Partial Class GuestForm
         Me.GroupBox1.Size = New System.Drawing.Size(686, 154)
         Me.GroupBox1.TabIndex = 26
         Me.GroupBox1.TabStop = False
+        '
+        'Button4
+        '
+        Me.Button4.BackColor = System.Drawing.Color.RoyalBlue
+        Me.Button4.ForeColor = System.Drawing.Color.White
+        Me.Button4.Location = New System.Drawing.Point(401, 98)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(75, 27)
+        Me.Button4.TabIndex = 8
+        Me.Button4.Text = "View"
+        Me.Button4.UseVisualStyleBackColor = False
         '
         'Button1
         '
@@ -504,44 +539,37 @@ Partial Class GuestForm
         Me.HelloUserLabel.TabIndex = 22
         Me.HelloUserLabel.Text = "Hello, Guest"
         '
-        'Button4
+        'Label20
         '
-        Me.Button4.BackColor = System.Drawing.Color.RoyalBlue
-        Me.Button4.ForeColor = System.Drawing.Color.White
-        Me.Button4.Location = New System.Drawing.Point(401, 98)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(75, 27)
-        Me.Button4.TabIndex = 8
-        Me.Button4.Text = "View"
-        Me.Button4.UseVisualStyleBackColor = False
+        Me.Label20.AutoSize = True
+        Me.Label20.BackColor = System.Drawing.Color.Teal
+        Me.Label20.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label20.ForeColor = System.Drawing.Color.White
+        Me.Label20.Location = New System.Drawing.Point(360, 6)
+        Me.Label20.Name = "Label20"
+        Me.Label20.Size = New System.Drawing.Size(54, 25)
+        Me.Label20.TabIndex = 33
+        Me.Label20.Text = "Men"
         '
-        'Button5
+        'Label19
         '
-        Me.Button5.BackColor = System.Drawing.Color.RoyalBlue
-        Me.Button5.ForeColor = System.Drawing.Color.White
-        Me.Button5.Location = New System.Drawing.Point(401, 100)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(75, 27)
-        Me.Button5.TabIndex = 9
-        Me.Button5.Text = "View"
-        Me.Button5.UseVisualStyleBackColor = False
-        '
-        'Button6
-        '
-        Me.Button6.BackColor = System.Drawing.Color.RoyalBlue
-        Me.Button6.ForeColor = System.Drawing.Color.White
-        Me.Button6.Location = New System.Drawing.Point(401, 86)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(75, 27)
-        Me.Button6.TabIndex = 10
-        Me.Button6.Text = "View"
-        Me.Button6.UseVisualStyleBackColor = False
+        Me.Label19.AutoSize = True
+        Me.Label19.BackColor = System.Drawing.Color.Teal
+        Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label19.ForeColor = System.Drawing.Color.White
+        Me.Label19.Location = New System.Drawing.Point(226, 5)
+        Me.Label19.Name = "Label19"
+        Me.Label19.Size = New System.Drawing.Size(86, 25)
+        Me.Label19.TabIndex = 32
+        Me.Label19.Text = "Women"
         '
         'GuestForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(797, 681)
+        Me.Controls.Add(Me.Label20)
+        Me.Controls.Add(Me.Label19)
         Me.Controls.Add(Me.PictureBox5)
         Me.Controls.Add(Me.GroupBox3)
         Me.Controls.Add(Me.LinkLabel1)
@@ -619,4 +647,6 @@ Partial Class GuestForm
     Friend WithEvents Button6 As Button
     Friend WithEvents Button5 As Button
     Friend WithEvents Button4 As Button
+    Friend WithEvents Label20 As Label
+    Friend WithEvents Label19 As Label
 End Class
