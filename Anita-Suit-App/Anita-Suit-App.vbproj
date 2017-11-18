@@ -97,12 +97,6 @@
     <Compile Include="GuestForm.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="HomePageForm.Designer.vb">
-      <DependentUpon>HomePageForm.vb</DependentUpon>
-    </Compile>
-    <Compile Include="HomePageForm.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -118,6 +112,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="MyHomePageform.Designer.vb">
+      <DependentUpon>MyHomePageform.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MyHomePageform.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="ShippingForm.Designer.vb">
       <DependentUpon>ShippingForm.vb</DependentUpon>
     </Compile>
@@ -128,6 +128,12 @@
       <DependentUpon>SignUpForm.vb</DependentUpon>
     </Compile>
     <Compile Include="SignUpForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubmitItemForm.Designer.vb">
+      <DependentUpon>SubmitItemForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SubmitItemForm.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ViewMoreForm.Designer.vb">
@@ -150,20 +156,23 @@
     <EmbeddedResource Include="GuestForm.resx">
       <DependentUpon>GuestForm.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="HomePageForm.resx">
-      <DependentUpon>HomePageForm.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="MyHomePageform.resx">
+      <DependentUpon>MyHomePageform.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ShippingForm.resx">
       <DependentUpon>ShippingForm.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SignUpForm.resx">
       <DependentUpon>SignUpForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubmitItemForm.resx">
+      <DependentUpon>SubmitItemForm.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ViewMoreForm.resx">
       <DependentUpon>ViewMoreForm.vb</DependentUpon>

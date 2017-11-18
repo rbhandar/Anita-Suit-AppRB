@@ -28,43 +28,47 @@ Partial Class LoginForm
         Me.PasswordLabel = New System.Windows.Forms.Label()
         Me.LoginButton = New System.Windows.Forms.Button()
         Me.SignUpButton = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
+        Me.ViewAsGuestButton = New System.Windows.Forms.Button()
         Me.ForgotPasswordLinkLabel = New System.Windows.Forms.LinkLabel()
-        Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
+        Me.ForgotIDLinkLabel = New System.Windows.Forms.LinkLabel()
         Me.HelpLinkLabel = New System.Windows.Forms.LinkLabel()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.TakeMeToGuestPagePictureBox = New System.Windows.Forms.PictureBox()
+        CType(Me.TakeMeToGuestPagePictureBox, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'UserIDTextBox
         '
-        Me.UserIDTextBox.Location = New System.Drawing.Point(254, 141)
+        Me.UserIDTextBox.Location = New System.Drawing.Point(169, 92)
+        Me.UserIDTextBox.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.UserIDTextBox.Name = "UserIDTextBox"
-        Me.UserIDTextBox.Size = New System.Drawing.Size(162, 26)
+        Me.UserIDTextBox.Size = New System.Drawing.Size(109, 20)
         Me.UserIDTextBox.TabIndex = 0
         '
         'PasswordTextBox
         '
-        Me.PasswordTextBox.Location = New System.Drawing.Point(254, 215)
+        Me.PasswordTextBox.Location = New System.Drawing.Point(169, 140)
+        Me.PasswordTextBox.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.PasswordTextBox.Name = "PasswordTextBox"
-        Me.PasswordTextBox.Size = New System.Drawing.Size(162, 26)
+        Me.PasswordTextBox.Size = New System.Drawing.Size(109, 20)
         Me.PasswordTextBox.TabIndex = 1
         '
         'UserIDLabel
         '
         Me.UserIDLabel.AutoSize = True
-        Me.UserIDLabel.Location = New System.Drawing.Point(167, 141)
+        Me.UserIDLabel.Location = New System.Drawing.Point(111, 92)
+        Me.UserIDLabel.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.UserIDLabel.Name = "UserIDLabel"
-        Me.UserIDLabel.Size = New System.Drawing.Size(64, 20)
+        Me.UserIDLabel.Size = New System.Drawing.Size(43, 13)
         Me.UserIDLabel.TabIndex = 2
         Me.UserIDLabel.Text = "User ID"
         '
         'PasswordLabel
         '
         Me.PasswordLabel.AutoSize = True
-        Me.PasswordLabel.Location = New System.Drawing.Point(167, 215)
+        Me.PasswordLabel.Location = New System.Drawing.Point(111, 140)
+        Me.PasswordLabel.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.PasswordLabel.Name = "PasswordLabel"
-        Me.PasswordLabel.Size = New System.Drawing.Size(78, 20)
+        Me.PasswordLabel.Size = New System.Drawing.Size(53, 13)
         Me.PasswordLabel.TabIndex = 3
         Me.PasswordLabel.Text = "Password"
         '
@@ -73,9 +77,10 @@ Partial Class LoginForm
         Me.LoginButton.BackColor = System.Drawing.Color.RoyalBlue
         Me.LoginButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.LoginButton.ForeColor = System.Drawing.Color.White
-        Me.LoginButton.Location = New System.Drawing.Point(171, 298)
+        Me.LoginButton.Location = New System.Drawing.Point(114, 194)
+        Me.LoginButton.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.LoginButton.Name = "LoginButton"
-        Me.LoginButton.Size = New System.Drawing.Size(86, 31)
+        Me.LoginButton.Size = New System.Drawing.Size(57, 20)
         Me.LoginButton.TabIndex = 4
         Me.LoginButton.Text = "Login"
         Me.LoginButton.UseVisualStyleBackColor = False
@@ -84,86 +89,93 @@ Partial Class LoginForm
         '
         Me.SignUpButton.BackColor = System.Drawing.Color.RoyalBlue
         Me.SignUpButton.ForeColor = System.Drawing.Color.White
-        Me.SignUpButton.Location = New System.Drawing.Point(171, 395)
+        Me.SignUpButton.Location = New System.Drawing.Point(114, 257)
+        Me.SignUpButton.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.SignUpButton.Name = "SignUpButton"
-        Me.SignUpButton.Size = New System.Drawing.Size(162, 32)
+        Me.SignUpButton.Size = New System.Drawing.Size(108, 21)
         Me.SignUpButton.TabIndex = 5
         Me.SignUpButton.Text = "Become a Member"
         Me.SignUpButton.UseVisualStyleBackColor = False
         '
-        'Button3
+        'ViewAsGuestButton
         '
-        Me.Button3.BackColor = System.Drawing.Color.RoyalBlue
-        Me.Button3.ForeColor = System.Drawing.Color.White
-        Me.Button3.Location = New System.Drawing.Point(396, 396)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(151, 31)
-        Me.Button3.TabIndex = 6
-        Me.Button3.Text = "View as Guest"
-        Me.Button3.UseVisualStyleBackColor = False
+        Me.ViewAsGuestButton.BackColor = System.Drawing.Color.RoyalBlue
+        Me.ViewAsGuestButton.ForeColor = System.Drawing.Color.White
+        Me.ViewAsGuestButton.Location = New System.Drawing.Point(264, 257)
+        Me.ViewAsGuestButton.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ViewAsGuestButton.Name = "ViewAsGuestButton"
+        Me.ViewAsGuestButton.Size = New System.Drawing.Size(101, 20)
+        Me.ViewAsGuestButton.TabIndex = 6
+        Me.ViewAsGuestButton.Text = "View as Guest"
+        Me.ViewAsGuestButton.UseVisualStyleBackColor = False
         '
         'ForgotPasswordLinkLabel
         '
         Me.ForgotPasswordLinkLabel.AutoSize = True
         Me.ForgotPasswordLinkLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ForgotPasswordLinkLabel.Location = New System.Drawing.Point(428, 215)
+        Me.ForgotPasswordLinkLabel.Location = New System.Drawing.Point(285, 140)
+        Me.ForgotPasswordLinkLabel.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.ForgotPasswordLinkLabel.Name = "ForgotPasswordLinkLabel"
-        Me.ForgotPasswordLinkLabel.Size = New System.Drawing.Size(119, 15)
+        Me.ForgotPasswordLinkLabel.Size = New System.Drawing.Size(76, 9)
         Me.ForgotPasswordLinkLabel.TabIndex = 9
         Me.ForgotPasswordLinkLabel.TabStop = True
         Me.ForgotPasswordLinkLabel.Text = "I forgot my password"
         '
-        'LinkLabel1
+        'ForgotIDLinkLabel
         '
-        Me.LinkLabel1.AutoSize = True
-        Me.LinkLabel1.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!)
-        Me.LinkLabel1.Location = New System.Drawing.Point(432, 141)
-        Me.LinkLabel1.Name = "LinkLabel1"
-        Me.LinkLabel1.Size = New System.Drawing.Size(78, 15)
-        Me.LinkLabel1.TabIndex = 10
-        Me.LinkLabel1.TabStop = True
-        Me.LinkLabel1.Text = "I forgot my ID"
+        Me.ForgotIDLinkLabel.AutoSize = True
+        Me.ForgotIDLinkLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!)
+        Me.ForgotIDLinkLabel.Location = New System.Drawing.Point(288, 92)
+        Me.ForgotIDLinkLabel.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.ForgotIDLinkLabel.Name = "ForgotIDLinkLabel"
+        Me.ForgotIDLinkLabel.Size = New System.Drawing.Size(51, 9)
+        Me.ForgotIDLinkLabel.TabIndex = 10
+        Me.ForgotIDLinkLabel.TabStop = True
+        Me.ForgotIDLinkLabel.Text = "I forgot my ID"
         '
         'HelpLinkLabel
         '
         Me.HelpLinkLabel.AutoSize = True
-        Me.HelpLinkLabel.Location = New System.Drawing.Point(692, 9)
+        Me.HelpLinkLabel.Location = New System.Drawing.Point(451, 6)
+        Me.HelpLinkLabel.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.HelpLinkLabel.Name = "HelpLinkLabel"
-        Me.HelpLinkLabel.Size = New System.Drawing.Size(42, 20)
+        Me.HelpLinkLabel.Size = New System.Drawing.Size(29, 13)
         Me.HelpLinkLabel.TabIndex = 11
         Me.HelpLinkLabel.TabStop = True
         Me.HelpLinkLabel.Text = "Help"
         '
-        'PictureBox1
+        'TakeMeToGuestPagePictureBox
         '
-        Me.PictureBox1.Image = Global.Anita_Suit_App.My.Resources.Resources.Anita_Suit_Logo_New
-        Me.PictureBox1.Location = New System.Drawing.Point(183, 12)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(327, 82)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 7
-        Me.PictureBox1.TabStop = False
+        Me.TakeMeToGuestPagePictureBox.Image = Global.Anita_Suit_App.My.Resources.Resources.Anita_Suit_Logo_New
+        Me.TakeMeToGuestPagePictureBox.Location = New System.Drawing.Point(122, 8)
+        Me.TakeMeToGuestPagePictureBox.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TakeMeToGuestPagePictureBox.Name = "TakeMeToGuestPagePictureBox"
+        Me.TakeMeToGuestPagePictureBox.Size = New System.Drawing.Size(218, 53)
+        Me.TakeMeToGuestPagePictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.TakeMeToGuestPagePictureBox.TabIndex = 7
+        Me.TakeMeToGuestPagePictureBox.TabStop = False
         '
         'LoginForm
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.Control
-        Me.ClientSize = New System.Drawing.Size(746, 578)
+        Me.ClientSize = New System.Drawing.Size(502, 376)
         Me.Controls.Add(Me.HelpLinkLabel)
-        Me.Controls.Add(Me.LinkLabel1)
+        Me.Controls.Add(Me.ForgotIDLinkLabel)
         Me.Controls.Add(Me.ForgotPasswordLinkLabel)
-        Me.Controls.Add(Me.PictureBox1)
-        Me.Controls.Add(Me.Button3)
+        Me.Controls.Add(Me.TakeMeToGuestPagePictureBox)
+        Me.Controls.Add(Me.ViewAsGuestButton)
         Me.Controls.Add(Me.SignUpButton)
         Me.Controls.Add(Me.LoginButton)
         Me.Controls.Add(Me.PasswordLabel)
         Me.Controls.Add(Me.UserIDLabel)
         Me.Controls.Add(Me.PasswordTextBox)
         Me.Controls.Add(Me.UserIDTextBox)
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "LoginForm"
         Me.Text = "Login"
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TakeMeToGuestPagePictureBox, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -175,9 +187,9 @@ Partial Class LoginForm
     Friend WithEvents PasswordLabel As Label
     Friend WithEvents LoginButton As Button
     Friend WithEvents SignUpButton As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents ViewAsGuestButton As Button
+    Friend WithEvents TakeMeToGuestPagePictureBox As PictureBox
     Friend WithEvents ForgotPasswordLinkLabel As LinkLabel
-    Friend WithEvents LinkLabel1 As LinkLabel
+    Friend WithEvents ForgotIDLinkLabel As LinkLabel
     Friend WithEvents HelpLinkLabel As LinkLabel
 End Class

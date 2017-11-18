@@ -29,6 +29,8 @@ Partial Class ShippingForm
         Me.ShipStateTextBox = New System.Windows.Forms.TextBox()
         Me.ShipZipTextBox = New System.Windows.Forms.TextBox()
         Me.ShipGroupBox = New System.Windows.Forms.GroupBox()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.PhoneNumberTextBox = New System.Windows.Forms.TextBox()
         Me.ShipCheckBox = New System.Windows.Forms.CheckBox()
         Me.BackButton = New System.Windows.Forms.Button()
         Me.ShipContinueButton = New System.Windows.Forms.Button()
@@ -39,8 +41,6 @@ Partial Class ShippingForm
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.PhoneNumberTextBox = New System.Windows.Forms.TextBox()
         Me.ShipGroupBox.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -113,6 +113,24 @@ Partial Class ShippingForm
         Me.ShipGroupBox.TabIndex = 6
         Me.ShipGroupBox.TabStop = False
         Me.ShipGroupBox.Text = "Shipping Address"
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Location = New System.Drawing.Point(129, 430)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(117, 20)
+        Me.Label7.TabIndex = 16
+        Me.Label7.Text = "Phone number:"
+        '
+        'PhoneNumberTextBox
+        '
+        Me.PhoneNumberTextBox.ForeColor = System.Drawing.Color.DimGray
+        Me.PhoneNumberTextBox.Location = New System.Drawing.Point(130, 452)
+        Me.PhoneNumberTextBox.Name = "PhoneNumberTextBox"
+        Me.PhoneNumberTextBox.Size = New System.Drawing.Size(261, 26)
+        Me.PhoneNumberTextBox.TabIndex = 15
+        Me.PhoneNumberTextBox.Text = "(---) --- ----"
         '
         'ShipCheckBox
         '
@@ -211,24 +229,6 @@ Partial Class ShippingForm
         Me.PictureBox1.TabIndex = 7
         Me.PictureBox1.TabStop = False
         '
-        'Label7
-        '
-        Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(129, 430)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(117, 20)
-        Me.Label7.TabIndex = 16
-        Me.Label7.Text = "Phone number:"
-        '
-        'PhoneNumberTextBox
-        '
-        Me.PhoneNumberTextBox.ForeColor = System.Drawing.Color.DimGray
-        Me.PhoneNumberTextBox.Location = New System.Drawing.Point(130, 452)
-        Me.PhoneNumberTextBox.Name = "PhoneNumberTextBox"
-        Me.PhoneNumberTextBox.Size = New System.Drawing.Size(261, 26)
-        Me.PhoneNumberTextBox.TabIndex = 15
-        Me.PhoneNumberTextBox.Text = "(---) --- ----"
-        '
         'ShippingForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
@@ -237,7 +237,7 @@ Partial Class ShippingForm
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.ShipGroupBox)
         Me.Name = "ShippingForm"
-        Me.Text = "Shipping"
+        Me.Text = "Shipping Address"
         Me.ShipGroupBox.ResumeLayout(False)
         Me.ShipGroupBox.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()

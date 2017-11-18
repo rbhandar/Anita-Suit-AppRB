@@ -23,21 +23,21 @@ Partial Class CreditCardForm
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.CardNumTextBox = New System.Windows.Forms.TextBox()
-        Me.NameOnCardTextBox = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.AddCardButton = New System.Windows.Forms.Button()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.PremiumRadioButton = New System.Windows.Forms.RadioButton()
-        Me.StandardRadioButton = New System.Windows.Forms.RadioButton()
-        Me.PayPerUseRadioButton3 = New System.Windows.Forms.RadioButton()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.PayPerUseRadioButton3 = New System.Windows.Forms.RadioButton()
+        Me.StandardRadioButton = New System.Windows.Forms.RadioButton()
+        Me.PremiumRadioButton = New System.Windows.Forms.RadioButton()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.AddCardButton = New System.Windows.Forms.Button()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.NameOnCardTextBox = New System.Windows.Forms.TextBox()
+        Me.CardNumTextBox = New System.Windows.Forms.TextBox()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.GroupBox1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -67,111 +67,16 @@ Partial Class CreditCardForm
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Credit or Debit Card Information"
         '
-        'CardNumTextBox
+        'Button1
         '
-        Me.CardNumTextBox.Location = New System.Drawing.Point(45, 62)
-        Me.CardNumTextBox.Name = "CardNumTextBox"
-        Me.CardNumTextBox.Size = New System.Drawing.Size(329, 26)
-        Me.CardNumTextBox.TabIndex = 0
-        '
-        'NameOnCardTextBox
-        '
-        Me.NameOnCardTextBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.NameOnCardTextBox.ForeColor = System.Drawing.Color.Silver
-        Me.NameOnCardTextBox.Location = New System.Drawing.Point(45, 117)
-        Me.NameOnCardTextBox.Name = "NameOnCardTextBox"
-        Me.NameOnCardTextBox.Size = New System.Drawing.Size(329, 23)
-        Me.NameOnCardTextBox.TabIndex = 1
-        Me.NameOnCardTextBox.Text = "As appear on card"
-        '
-        'TextBox3
-        '
-        Me.TextBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox3.ForeColor = System.Drawing.Color.Silver
-        Me.TextBox3.Location = New System.Drawing.Point(45, 187)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(52, 23)
-        Me.TextBox3.TabIndex = 2
-        Me.TextBox3.Text = "Month"
-        '
-        'TextBox4
-        '
-        Me.TextBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox4.ForeColor = System.Drawing.Color.Silver
-        Me.TextBox4.Location = New System.Drawing.Point(103, 187)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(55, 23)
-        Me.TextBox4.TabIndex = 3
-        Me.TextBox4.Text = "Year"
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(41, 39)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(105, 20)
-        Me.Label1.TabIndex = 4
-        Me.Label1.Text = "Card number:"
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(45, 95)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(115, 20)
-        Me.Label2.TabIndex = 5
-        Me.Label2.Text = "Name on Card:"
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(45, 161)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(119, 20)
-        Me.Label3.TabIndex = 6
-        Me.Label3.Text = "Expiration date:"
-        '
-        'AddCardButton
-        '
-        Me.AddCardButton.BackColor = System.Drawing.Color.RoyalBlue
-        Me.AddCardButton.ForeColor = System.Drawing.Color.White
-        Me.AddCardButton.Location = New System.Drawing.Point(359, 412)
-        Me.AddCardButton.Name = "AddCardButton"
-        Me.AddCardButton.Size = New System.Drawing.Size(110, 32)
-        Me.AddCardButton.TabIndex = 13
-        Me.AddCardButton.Text = "Submit"
-        Me.AddCardButton.UseVisualStyleBackColor = False
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(41, 237)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(134, 20)
-        Me.Label4.TabIndex = 14
-        Me.Label4.Text = "Membership type:"
-        '
-        'PremiumRadioButton
-        '
-        Me.PremiumRadioButton.AutoSize = True
-        Me.PremiumRadioButton.Location = New System.Drawing.Point(47, 261)
-        Me.PremiumRadioButton.Name = "PremiumRadioButton"
-        Me.PremiumRadioButton.Size = New System.Drawing.Size(225, 24)
-        Me.PremiumRadioButton.TabIndex = 15
-        Me.PremiumRadioButton.TabStop = True
-        Me.PremiumRadioButton.Text = "Premium $29.99 per month"
-        Me.PremiumRadioButton.UseVisualStyleBackColor = True
-        '
-        'StandardRadioButton
-        '
-        Me.StandardRadioButton.AutoSize = True
-        Me.StandardRadioButton.Location = New System.Drawing.Point(47, 292)
-        Me.StandardRadioButton.Name = "StandardRadioButton"
-        Me.StandardRadioButton.Size = New System.Drawing.Size(229, 24)
-        Me.StandardRadioButton.TabIndex = 16
-        Me.StandardRadioButton.TabStop = True
-        Me.StandardRadioButton.Text = "Standard $19.99 per month"
-        Me.StandardRadioButton.UseVisualStyleBackColor = True
+        Me.Button1.BackColor = System.Drawing.Color.RoyalBlue
+        Me.Button1.ForeColor = System.Drawing.Color.White
+        Me.Button1.Location = New System.Drawing.Point(47, 412)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(110, 32)
+        Me.Button1.TabIndex = 18
+        Me.Button1.Text = "Back"
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'PayPerUseRadioButton3
         '
@@ -184,6 +89,48 @@ Partial Class CreditCardForm
         Me.PayPerUseRadioButton3.Text = "Pay per use $0 per month"
         Me.PayPerUseRadioButton3.UseVisualStyleBackColor = True
         '
+        'StandardRadioButton
+        '
+        Me.StandardRadioButton.AutoSize = True
+        Me.StandardRadioButton.Location = New System.Drawing.Point(47, 292)
+        Me.StandardRadioButton.Name = "StandardRadioButton"
+        Me.StandardRadioButton.Size = New System.Drawing.Size(229, 24)
+        Me.StandardRadioButton.TabIndex = 16
+        Me.StandardRadioButton.TabStop = True
+        Me.StandardRadioButton.Text = "Standard $19.99 per month"
+        Me.StandardRadioButton.UseVisualStyleBackColor = True
+        '
+        'PremiumRadioButton
+        '
+        Me.PremiumRadioButton.AutoSize = True
+        Me.PremiumRadioButton.Location = New System.Drawing.Point(47, 261)
+        Me.PremiumRadioButton.Name = "PremiumRadioButton"
+        Me.PremiumRadioButton.Size = New System.Drawing.Size(225, 24)
+        Me.PremiumRadioButton.TabIndex = 15
+        Me.PremiumRadioButton.TabStop = True
+        Me.PremiumRadioButton.Text = "Premium $29.99 per month"
+        Me.PremiumRadioButton.UseVisualStyleBackColor = True
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(41, 237)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(134, 20)
+        Me.Label4.TabIndex = 14
+        Me.Label4.Text = "Membership type:"
+        '
+        'AddCardButton
+        '
+        Me.AddCardButton.BackColor = System.Drawing.Color.RoyalBlue
+        Me.AddCardButton.ForeColor = System.Drawing.Color.White
+        Me.AddCardButton.Location = New System.Drawing.Point(359, 412)
+        Me.AddCardButton.Name = "AddCardButton"
+        Me.AddCardButton.Size = New System.Drawing.Size(110, 32)
+        Me.AddCardButton.TabIndex = 13
+        Me.AddCardButton.Text = "Submit"
+        Me.AddCardButton.UseVisualStyleBackColor = False
+        '
         'PictureBox1
         '
         Me.PictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
@@ -195,6 +142,70 @@ Partial Class CreditCardForm
         Me.PictureBox1.TabIndex = 7
         Me.PictureBox1.TabStop = False
         '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(45, 161)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(119, 20)
+        Me.Label3.TabIndex = 6
+        Me.Label3.Text = "Expiration date:"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(45, 95)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(115, 20)
+        Me.Label2.TabIndex = 5
+        Me.Label2.Text = "Name on Card:"
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(41, 39)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(105, 20)
+        Me.Label1.TabIndex = 4
+        Me.Label1.Text = "Card number:"
+        '
+        'TextBox4
+        '
+        Me.TextBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox4.ForeColor = System.Drawing.Color.Silver
+        Me.TextBox4.Location = New System.Drawing.Point(103, 187)
+        Me.TextBox4.Name = "TextBox4"
+        Me.TextBox4.Size = New System.Drawing.Size(55, 23)
+        Me.TextBox4.TabIndex = 3
+        Me.TextBox4.Text = "Year"
+        '
+        'TextBox3
+        '
+        Me.TextBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox3.ForeColor = System.Drawing.Color.Silver
+        Me.TextBox3.Location = New System.Drawing.Point(45, 187)
+        Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.Size = New System.Drawing.Size(52, 23)
+        Me.TextBox3.TabIndex = 2
+        Me.TextBox3.Text = "Month"
+        '
+        'NameOnCardTextBox
+        '
+        Me.NameOnCardTextBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.NameOnCardTextBox.ForeColor = System.Drawing.Color.Silver
+        Me.NameOnCardTextBox.Location = New System.Drawing.Point(45, 117)
+        Me.NameOnCardTextBox.Name = "NameOnCardTextBox"
+        Me.NameOnCardTextBox.Size = New System.Drawing.Size(329, 23)
+        Me.NameOnCardTextBox.TabIndex = 1
+        Me.NameOnCardTextBox.Text = "As appear on card"
+        '
+        'CardNumTextBox
+        '
+        Me.CardNumTextBox.Location = New System.Drawing.Point(45, 62)
+        Me.CardNumTextBox.Name = "CardNumTextBox"
+        Me.CardNumTextBox.Size = New System.Drawing.Size(329, 26)
+        Me.CardNumTextBox.TabIndex = 0
+        '
         'PictureBox2
         '
         Me.PictureBox2.Image = Global.Anita_Suit_App.My.Resources.Resources.Anita_Suit_Logo_New
@@ -205,17 +216,6 @@ Partial Class CreditCardForm
         Me.PictureBox2.TabIndex = 1
         Me.PictureBox2.TabStop = False
         '
-        'Button1
-        '
-        Me.Button1.BackColor = System.Drawing.Color.RoyalBlue
-        Me.Button1.ForeColor = System.Drawing.Color.White
-        Me.Button1.Location = New System.Drawing.Point(47, 412)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(110, 32)
-        Me.Button1.TabIndex = 18
-        Me.Button1.Text = "Back"
-        Me.Button1.UseVisualStyleBackColor = False
-        '
         'CreditCardForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
@@ -224,7 +224,7 @@ Partial Class CreditCardForm
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.GroupBox1)
         Me.Name = "CreditCardForm"
-        Me.Text = "CreditCardForm"
+        Me.Text = "Payment"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
