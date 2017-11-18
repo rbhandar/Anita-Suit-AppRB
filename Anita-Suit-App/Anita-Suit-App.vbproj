@@ -84,6 +84,7 @@
     <Compile Include="CreditCardForm.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="db.vb" />
     <Compile Include="Login.vb">
       <SubType>Form</SubType>
     </Compile>
