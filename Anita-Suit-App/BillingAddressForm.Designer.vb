@@ -172,9 +172,9 @@ Partial Class BillingAddressForm
         Me.Label2.AutoSize = True
         Me.Label2.Location = New System.Drawing.Point(128, 96)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(140, 20)
+        Me.Label2.Size = New System.Drawing.Size(152, 20)
         Me.Label2.TabIndex = 7
-        Me.Label2.Text = "Hour, Apt or Suite:"
+        Me.Label2.Text = "House, Apt or Suite:"
         '
         'Label1
         '

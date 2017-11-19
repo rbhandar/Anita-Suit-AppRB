@@ -4,7 +4,7 @@ Public Class LoginForm
 
 
     Private Sub LoginButton_Click(sender As Object, e As EventArgs) Handles LoginButton.Click
-        Dim connection As New SqlConnection("Server=essql1.walton.uark.edu;Database=ISYS4283F1702;Trusted_Connection=yes;")
+        Dim connection As New SqlConnection("Server=essql1.walton.uark.edu;Database=anita_suit;Trusted_Connection=yes;")
         Dim command As New SqlCommand("SELECT * from Anita_Customer WHERE [User_Name] = @User_Name and [Password] = @Password", connection)
         command.Parameters.Add("@User_Name", SqlDbType.VarChar).Value = UserIDTextBox.Text
         command.Parameters.Add("@Password", SqlDbType.VarChar).Value = PasswordTextBox.Text

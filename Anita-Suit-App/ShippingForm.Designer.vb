@@ -47,44 +47,50 @@ Partial Class ShippingForm
         '
         'ShipCityTextBox
         '
-        Me.ShipCityTextBox.Location = New System.Drawing.Point(132, 172)
+        Me.ShipCityTextBox.Location = New System.Drawing.Point(88, 112)
+        Me.ShipCityTextBox.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ShipCityTextBox.Name = "ShipCityTextBox"
-        Me.ShipCityTextBox.Size = New System.Drawing.Size(261, 26)
+        Me.ShipCityTextBox.Size = New System.Drawing.Size(175, 20)
         Me.ShipCityTextBox.TabIndex = 0
         '
         'AhipHouseNumTextBox
         '
-        Me.AhipHouseNumTextBox.Location = New System.Drawing.Point(132, 103)
+        Me.AhipHouseNumTextBox.Location = New System.Drawing.Point(88, 67)
+        Me.AhipHouseNumTextBox.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.AhipHouseNumTextBox.Name = "AhipHouseNumTextBox"
-        Me.AhipHouseNumTextBox.Size = New System.Drawing.Size(261, 26)
+        Me.AhipHouseNumTextBox.Size = New System.Drawing.Size(175, 20)
         Me.AhipHouseNumTextBox.TabIndex = 1
         '
         'ShipStreetAddressTextBox
         '
-        Me.ShipStreetAddressTextBox.Location = New System.Drawing.Point(132, 42)
+        Me.ShipStreetAddressTextBox.Location = New System.Drawing.Point(88, 27)
+        Me.ShipStreetAddressTextBox.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ShipStreetAddressTextBox.Name = "ShipStreetAddressTextBox"
-        Me.ShipStreetAddressTextBox.Size = New System.Drawing.Size(261, 26)
+        Me.ShipStreetAddressTextBox.Size = New System.Drawing.Size(175, 20)
         Me.ShipStreetAddressTextBox.TabIndex = 2
         '
         'ShipCountryTextBox
         '
-        Me.ShipCountryTextBox.Location = New System.Drawing.Point(132, 380)
+        Me.ShipCountryTextBox.Location = New System.Drawing.Point(88, 247)
+        Me.ShipCountryTextBox.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ShipCountryTextBox.Name = "ShipCountryTextBox"
-        Me.ShipCountryTextBox.Size = New System.Drawing.Size(261, 26)
+        Me.ShipCountryTextBox.Size = New System.Drawing.Size(175, 20)
         Me.ShipCountryTextBox.TabIndex = 3
         '
         'ShipStateTextBox
         '
-        Me.ShipStateTextBox.Location = New System.Drawing.Point(132, 242)
+        Me.ShipStateTextBox.Location = New System.Drawing.Point(88, 157)
+        Me.ShipStateTextBox.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ShipStateTextBox.Name = "ShipStateTextBox"
-        Me.ShipStateTextBox.Size = New System.Drawing.Size(261, 26)
+        Me.ShipStateTextBox.Size = New System.Drawing.Size(175, 20)
         Me.ShipStateTextBox.TabIndex = 4
         '
         'ShipZipTextBox
         '
-        Me.ShipZipTextBox.Location = New System.Drawing.Point(132, 311)
+        Me.ShipZipTextBox.Location = New System.Drawing.Point(88, 202)
+        Me.ShipZipTextBox.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ShipZipTextBox.Name = "ShipZipTextBox"
-        Me.ShipZipTextBox.Size = New System.Drawing.Size(261, 26)
+        Me.ShipZipTextBox.Size = New System.Drawing.Size(175, 20)
         Me.ShipZipTextBox.TabIndex = 5
         '
         'ShipGroupBox
@@ -107,9 +113,11 @@ Partial Class ShippingForm
         Me.ShipGroupBox.Controls.Add(Me.AhipHouseNumTextBox)
         Me.ShipGroupBox.Controls.Add(Me.ShipStreetAddressTextBox)
         Me.ShipGroupBox.ForeColor = System.Drawing.Color.Chocolate
-        Me.ShipGroupBox.Location = New System.Drawing.Point(110, 76)
+        Me.ShipGroupBox.Location = New System.Drawing.Point(73, 49)
+        Me.ShipGroupBox.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ShipGroupBox.Name = "ShipGroupBox"
-        Me.ShipGroupBox.Size = New System.Drawing.Size(531, 568)
+        Me.ShipGroupBox.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ShipGroupBox.Size = New System.Drawing.Size(354, 369)
         Me.ShipGroupBox.TabIndex = 6
         Me.ShipGroupBox.TabStop = False
         Me.ShipGroupBox.Text = "Shipping Address"
@@ -117,27 +125,30 @@ Partial Class ShippingForm
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(129, 430)
+        Me.Label7.Location = New System.Drawing.Point(86, 279)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(117, 20)
+        Me.Label7.Size = New System.Drawing.Size(79, 13)
         Me.Label7.TabIndex = 16
         Me.Label7.Text = "Phone number:"
         '
         'PhoneNumberTextBox
         '
         Me.PhoneNumberTextBox.ForeColor = System.Drawing.Color.DimGray
-        Me.PhoneNumberTextBox.Location = New System.Drawing.Point(130, 452)
+        Me.PhoneNumberTextBox.Location = New System.Drawing.Point(87, 294)
+        Me.PhoneNumberTextBox.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.PhoneNumberTextBox.Name = "PhoneNumberTextBox"
-        Me.PhoneNumberTextBox.Size = New System.Drawing.Size(261, 26)
+        Me.PhoneNumberTextBox.Size = New System.Drawing.Size(175, 20)
         Me.PhoneNumberTextBox.TabIndex = 15
         Me.PhoneNumberTextBox.Text = "(---) --- ----"
         '
         'ShipCheckBox
         '
         Me.ShipCheckBox.AutoSize = True
-        Me.ShipCheckBox.Location = New System.Drawing.Point(130, 484)
+        Me.ShipCheckBox.Location = New System.Drawing.Point(87, 315)
+        Me.ShipCheckBox.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ShipCheckBox.Name = "ShipCheckBox"
-        Me.ShipCheckBox.Size = New System.Drawing.Size(279, 24)
+        Me.ShipCheckBox.Size = New System.Drawing.Size(187, 17)
         Me.ShipCheckBox.TabIndex = 14
         Me.ShipCheckBox.Text = "Biiling address is same as shipping"
         Me.ShipCheckBox.UseVisualStyleBackColor = True
@@ -146,9 +157,10 @@ Partial Class ShippingForm
         '
         Me.BackButton.BackColor = System.Drawing.Color.RoyalBlue
         Me.BackButton.ForeColor = System.Drawing.Color.White
-        Me.BackButton.Location = New System.Drawing.Point(6, 518)
+        Me.BackButton.Location = New System.Drawing.Point(4, 337)
+        Me.BackButton.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.BackButton.Name = "BackButton"
-        Me.BackButton.Size = New System.Drawing.Size(110, 32)
+        Me.BackButton.Size = New System.Drawing.Size(73, 21)
         Me.BackButton.TabIndex = 13
         Me.BackButton.Text = "Back"
         Me.BackButton.UseVisualStyleBackColor = False
@@ -157,9 +169,10 @@ Partial Class ShippingForm
         '
         Me.ShipContinueButton.BackColor = System.Drawing.Color.RoyalBlue
         Me.ShipContinueButton.ForeColor = System.Drawing.Color.White
-        Me.ShipContinueButton.Location = New System.Drawing.Point(415, 518)
+        Me.ShipContinueButton.Location = New System.Drawing.Point(277, 337)
+        Me.ShipContinueButton.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ShipContinueButton.Name = "ShipContinueButton"
-        Me.ShipContinueButton.Size = New System.Drawing.Size(110, 32)
+        Me.ShipContinueButton.Size = New System.Drawing.Size(73, 21)
         Me.ShipContinueButton.TabIndex = 12
         Me.ShipContinueButton.Text = "Contiue"
         Me.ShipContinueButton.UseVisualStyleBackColor = False
@@ -167,27 +180,30 @@ Partial Class ShippingForm
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(128, 290)
+        Me.Label6.Location = New System.Drawing.Point(85, 188)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(74, 20)
+        Me.Label6.Size = New System.Drawing.Size(52, 13)
         Me.Label6.TabIndex = 11
         Me.Label6.Text = "Zip code:"
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(128, 360)
+        Me.Label5.Location = New System.Drawing.Point(85, 234)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(68, 20)
+        Me.Label5.Size = New System.Drawing.Size(46, 13)
         Me.Label5.TabIndex = 10
         Me.Label5.Text = "Country:"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(128, 222)
+        Me.Label4.Location = New System.Drawing.Point(85, 144)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(52, 20)
+        Me.Label4.Size = New System.Drawing.Size(35, 13)
         Me.Label4.TabIndex = 9
         Me.Label4.Text = "State:"
         '
@@ -195,47 +211,52 @@ Partial Class ShippingForm
         '
         Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.Color.Transparent
-        Me.Label3.Location = New System.Drawing.Point(128, 151)
+        Me.Label3.Location = New System.Drawing.Point(85, 98)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(39, 20)
+        Me.Label3.Size = New System.Drawing.Size(27, 13)
         Me.Label3.TabIndex = 8
         Me.Label3.Text = "City:"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(128, 80)
+        Me.Label2.Location = New System.Drawing.Point(85, 52)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(152, 20)
+        Me.Label2.Size = New System.Drawing.Size(102, 13)
         Me.Label2.TabIndex = 7
         Me.Label2.Text = "House, Apt or Suite:"
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(128, 19)
+        Me.Label1.Location = New System.Drawing.Point(85, 12)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(118, 20)
+        Me.Label1.Size = New System.Drawing.Size(78, 13)
         Me.Label1.TabIndex = 6
         Me.Label1.Text = "Street address:"
         '
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.Anita_Suit_App.My.Resources.Resources.Anita_Suit_Logo_New
-        Me.PictureBox1.Location = New System.Drawing.Point(291, 12)
+        Me.PictureBox1.Location = New System.Drawing.Point(194, 8)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(181, 68)
+        Me.PictureBox1.Size = New System.Drawing.Size(121, 44)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 7
         Me.PictureBox1.TabStop = False
         '
         'ShippingForm
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(755, 671)
+        Me.ClientSize = New System.Drawing.Size(503, 436)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.ShipGroupBox)
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "ShippingForm"
         Me.Text = "Shipping Address"
         Me.ShipGroupBox.ResumeLayout(False)

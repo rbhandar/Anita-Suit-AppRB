@@ -38,12 +38,16 @@ Partial Class SignUpForm
         Me.PasswordTextBox = New System.Windows.Forms.TextBox()
         Me.BackgroundWorker1 = New System.ComponentModel.BackgroundWorker()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.SignUpPhoneNumTextBox = New System.Windows.Forms.TextBox()
+        Me.SignUpPhoneNumLabel = New System.Windows.Forms.Label()
         Me.SignUpGroupBox.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'SignUpGroupBox
         '
+        Me.SignUpGroupBox.Controls.Add(Me.SignUpPhoneNumLabel)
+        Me.SignUpGroupBox.Controls.Add(Me.SignUpPhoneNumTextBox)
         Me.SignUpGroupBox.Controls.Add(Me.TermsAndConditionCheckBox)
         Me.SignUpGroupBox.Controls.Add(Me.LinkLabel1)
         Me.SignUpGroupBox.Controls.Add(Me.SignUpContinueButton)
@@ -60,7 +64,7 @@ Partial Class SignUpForm
         Me.SignUpGroupBox.ForeColor = System.Drawing.Color.Chocolate
         Me.SignUpGroupBox.Location = New System.Drawing.Point(178, 72)
         Me.SignUpGroupBox.Name = "SignUpGroupBox"
-        Me.SignUpGroupBox.Size = New System.Drawing.Size(422, 505)
+        Me.SignUpGroupBox.Size = New System.Drawing.Size(422, 544)
         Me.SignUpGroupBox.TabIndex = 0
         Me.SignUpGroupBox.TabStop = False
         Me.SignUpGroupBox.Text = "Become a Member"
@@ -68,7 +72,7 @@ Partial Class SignUpForm
         'TermsAndConditionCheckBox
         '
         Me.TermsAndConditionCheckBox.AutoSize = True
-        Me.TermsAndConditionCheckBox.Location = New System.Drawing.Point(104, 462)
+        Me.TermsAndConditionCheckBox.Location = New System.Drawing.Point(110, 493)
         Me.TermsAndConditionCheckBox.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.TermsAndConditionCheckBox.Name = "TermsAndConditionCheckBox"
         Me.TermsAndConditionCheckBox.Size = New System.Drawing.Size(235, 24)
@@ -79,7 +83,7 @@ Partial Class SignUpForm
         'LinkLabel1
         '
         Me.LinkLabel1.AutoSize = True
-        Me.LinkLabel1.Location = New System.Drawing.Point(6, 469)
+        Me.LinkLabel1.Location = New System.Drawing.Point(12, 500)
         Me.LinkLabel1.Name = "LinkLabel1"
         Me.LinkLabel1.Size = New System.Drawing.Size(58, 20)
         Me.LinkLabel1.TabIndex = 12
@@ -90,7 +94,7 @@ Partial Class SignUpForm
         '
         Me.SignUpContinueButton.BackColor = System.Drawing.Color.RoyalBlue
         Me.SignUpContinueButton.ForeColor = System.Drawing.Color.White
-        Me.SignUpContinueButton.Location = New System.Drawing.Point(154, 420)
+        Me.SignUpContinueButton.Location = New System.Drawing.Point(160, 451)
         Me.SignUpContinueButton.Name = "SignUpContinueButton"
         Me.SignUpContinueButton.Size = New System.Drawing.Size(124, 32)
         Me.SignUpContinueButton.TabIndex = 11
@@ -189,6 +193,22 @@ Partial Class SignUpForm
         Me.PictureBox1.TabIndex = 1
         Me.PictureBox1.TabStop = False
         '
+        'SignUpPhoneNumTextBox
+        '
+        Me.SignUpPhoneNumTextBox.Location = New System.Drawing.Point(98, 419)
+        Me.SignUpPhoneNumTextBox.Name = "SignUpPhoneNumTextBox"
+        Me.SignUpPhoneNumTextBox.Size = New System.Drawing.Size(235, 26)
+        Me.SignUpPhoneNumTextBox.TabIndex = 14
+        '
+        'SignUpPhoneNumLabel
+        '
+        Me.SignUpPhoneNumLabel.AutoSize = True
+        Me.SignUpPhoneNumLabel.Location = New System.Drawing.Point(94, 396)
+        Me.SignUpPhoneNumLabel.Name = "SignUpPhoneNumLabel"
+        Me.SignUpPhoneNumLabel.Size = New System.Drawing.Size(119, 20)
+        Me.SignUpPhoneNumLabel.TabIndex = 15
+        Me.SignUpPhoneNumLabel.Text = "Phone Number:"
+        '
         'SignUpForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
@@ -221,4 +241,6 @@ Partial Class SignUpForm
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents LinkLabel1 As LinkLabel
     Friend WithEvents TermsAndConditionCheckBox As CheckBox
+    Friend WithEvents SignUpPhoneNumLabel As Label
+    Friend WithEvents SignUpPhoneNumTextBox As TextBox
 End Class
